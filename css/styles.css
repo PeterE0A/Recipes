@@ -1,23 +1,59 @@
+
+body{
+    background-color: beige;
+    text-align: center;
+    display: block;
+    color: rgb(167, 101, 16);
+    font-size: 20px;
+}
+
+
+
 .odin, .cake,  .hamburger, .cheese{
     color: burlywood;
     text-align: left;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
+    text-align: center;
 }
+
+
 
 a{
     text-decoration: none;
-   font-size: 30px;
-   color: white;
-   background-color: purple;
+   color: burlywood;
+   border-radius: 5%;
+   font-size: 50px;
+   font-weight: bold;
+  
+}
+
+a:hover{
+    background-color: burlywood;
+    color: white;
 }
 
 li{
     list-style-type: none;
+    margin: 10px 0;
+    text-align: center;
 }
 
 img{
     height: auto;
     width: 400px;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+i{
+    font-weight: bold;
+   
+}
+
+div{
+    width: 30%;
+    margin: 0 auto;
 }
